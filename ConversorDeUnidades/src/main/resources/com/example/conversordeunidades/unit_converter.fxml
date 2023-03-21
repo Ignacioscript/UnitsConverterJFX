@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<TabPane xmlns="http://javafx.com/javafx/19"
+         xmlns:fx="http://javafx.com/fxml/1"
+         fx:controller="com.example.conversordeunidades.UnitConverterController"
+         style="-fx-background-color: #c4c8bf;">
+   <tabs>
+      <Tab onSelectionChanged="#initialize" text="Longitud">
+         <content>
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0">
+                <padding>
+                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                </padding>
+                <children>
+                    <HBox spacing="10.0">
+                        <children>
+                            <Label text="Valor de entrada:" />
+                            <TextField fx:id="inputField" />
+                            <ComboBox fx:id="fromUnitBoxL" />
+                        </children>
+                    </HBox>
+                    <HBox spacing="10.0">
+                        <children>
+                            <Label text="Valor convertido:" />
+                            <TextField fx:id="outputField" editable="false" />
+                            <ComboBox fx:id="toUnitBoxL" />
+                        </children>
+                    </HBox>
+                    <Button fx:id="convertButton" mnemonicParsing="false" text="Convertir" />
+                </children>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab onSelectionChanged="#initializeTmperature" text="Temperatura">
+         <content>
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <HBox spacing="10.0">
+                     <children>
+                        <Label text="Valor de entrada:" />
+                        <TextField fx:id="inputFieldTp" />
+                        <ComboBox fx:id="fromUnitBoxTp" />
+                     </children>
+                  </HBox>
+                  <HBox spacing="10.0">
+                     <children>
+                        <Label text="Valor convertido:" />
+                        <TextField fx:id="outputFieldTp" editable="false" />
+                        <ComboBox fx:id="toUnitBoxTp" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="convertButtonTp" mnemonicParsing="false" text="Convertir" />
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab onSelectionChanged="#initializeExchange" text="Moneda">
+         <content>
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <HBox spacing="10.0">
+                     <children>
+                        <Label text="Valor de entrada:" />
+                        <TextField fx:id="inputFieldEx" />
+                        <ComboBox fx:id="fromUnitBoxEx" />
+                     </children>
+                  </HBox>
+                  <HBox spacing="10.0">
+                     <children>
+                        <Label text="Valor convertido:" />
+                        <TextField fx:id="outputFieldEx" editable="false" />
+                        <ComboBox fx:id="toUnitBoxEx" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="convertButtonEx" mnemonicParsing="false" text="Convertir" />
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+   </tabs>
+</TabPane>
