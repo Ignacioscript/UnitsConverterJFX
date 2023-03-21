@@ -15,21 +15,22 @@ Este proyecto es un conversor de unidades desarrollado en Java utilizando el fra
 ## Sobre el desafio
 - Se nos solicitó crear un conversor de divisas utilizando el lenguaje Java. Las características solicitadas por nuestro cliente son las siguientes:
 
-## ** Parametros del desafio:**
-- El convertidor de moneda debe:
-			- Convertir de la moneda de tu país a Dólar
-		   - Convertir de la moneda de tu país  a Euros
-       	- Convertir de la moneda de tu país  a Libras Esterlinas
-      	 - Convertir de la moneda de tu país  a Yen Japonés
-       	- Convertir de la moneda de tu país  a Won sul-coreano
-Conversor invertido:
-		    - Convertir de Dólar a la moneda de tu país
-      	 - Convertir de Euros a la moneda de tu país
-       	- Convertir de Libras Esterlinas a la moneda de tu país
-      	 - Convertir de Yen Japonés a la moneda de tu país
-      	 - Convertir de Won sul-coreano a la moneda de tu país
+## Parametros del desafio:
+1. ### El convertidor de moneda debe:
+		- Convertir de la moneda de tu país a Dólar
+		- Convertir de la moneda de tu país  a Euros
+		- Convertir de la moneda de tu país  a Libras Esterlinas
+		- Convertir de la moneda de tu país  a Yen Japonés
+		- Convertir de la moneda de tu país  a Won sul-coreano
 
-	###**Extras**
+2. ### Conversor invertido:
+		- Convertir de Dólar a la moneda de tu país
+		- Convertir de Euros a la moneda de tu país
+		- Convertir de Libras Esterlinas a la moneda de tu país
+		- Convertir de Yen Japonés a la moneda de tu país
+		- Convertir de Won sul-coreano a la moneda de tu país
+
+	### Extras
 	Funcionalidades opcionales del desafio:	 Poder reutilizar el código para generar diferentes tipos de conversores de unidades (temperatura, distancia, masa, etc). 
 
 ## Requisitos
