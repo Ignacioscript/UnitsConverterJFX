@@ -51,7 +51,6 @@ Este proyecto es un conversor de unidades desarrollado en Java utilizando el fra
 2. Navegue hasta la carpeta del proyecto: ConversorDeUnidades
 3. Compile el proyecto: javac --module-path /src/main/java/module-info.java --add-modules javafx.controls,javafx.fxml src/*.java
 4. Ejecute la aplicación: java --module-path /src/main/java/module-info.java --add-modules javafx.controls,javafx.fxml src.Main
-5. ![Screenshot from 2023-03-21 10-27-19](https://user-images.githubusercontent.com/107491009/226664562-652ebe16-1153-4603-b81d-16a154678567.png)
 
 
 #### Desde un IDE
@@ -72,6 +71,8 @@ Este proyecto es un conversor de unidades desarrollado en Java utilizando el fra
 ![Screenshot from 2023-03-21 10-31-30](https://user-images.githubusercontent.com/107491009/226664038-19b6361f-d81c-4e6d-ad20-c3f306545d90.png)
 ![Screenshot from 2023-03-21 10-32-02](https://user-images.githubusercontent.com/107491009/226664107-768a4307-4b3a-4c12-83e5-637e8a821b3d.png)
 
+## Estructura del proyecto
+![Screenshot from 2023-03-21 10-27-19](https://user-images.githubusercontent.com/107491009/226664562-652ebe16-1153-4603-b81d-16a154678567.png)
 
 
 ## Contribuciones
