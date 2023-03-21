@@ -50,6 +50,8 @@ Conversor invertido:
 2. Navegue hasta la carpeta del proyecto: ConversorDeUnidades
 3. Compile el proyecto: javac --module-path /src/main/java/module-info.java --add-modules javafx.controls,javafx.fxml src/*.java
 4. Ejecute la aplicación: java --module-path /src/main/java/module-info.java --add-modules javafx.controls,javafx.fxml src.Main
+5. ![Screenshot from 2023-03-21 10-27-19](https://user-images.githubusercontent.com/107491009/226664562-652ebe16-1153-4603-b81d-16a154678567.png)
+
 
 #### Desde un IDE
 1. Importe el proyecto en su IDE favorito (Eclipse, IntelliJ IDEA, etc.).
@@ -62,6 +64,14 @@ Conversor invertido:
 3. Ingrese el valor que desea convertir en el campo de texto.
 4. Seleccione la unidad de origen y la unidad de destino.
 5. Haga clic en "Convertir" para obtener el resultado.
+
+![Screenshot from 2023-03-21 10-29-28](https://user-images.githubusercontent.com/107491009/226663897-0a9ee7a7-9576-406a-843c-686c9f9959ea.png)
+
+![Screenshot from 2023-03-21 10-31-01](https://user-images.githubusercontent.com/107491009/226663975-519e7a75-dc55-4b73-9e84-738e42e440b3.png)
+![Screenshot from 2023-03-21 10-31-30](https://user-images.githubusercontent.com/107491009/226664038-19b6361f-d81c-4e6d-ad20-c3f306545d90.png)
+![Screenshot from 2023-03-21 10-32-02](https://user-images.githubusercontent.com/107491009/226664107-768a4307-4b3a-4c12-83e5-637e8a821b3d.png)
+
+
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Por favor, cree una issue o envíe un pull request para proponer mejoras o correcciones de errores.
